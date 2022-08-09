@@ -70,3 +70,11 @@ header {
   font-size: 25px;
   color: red;
 }
+
+/* media */
+@media (max-width: 450px) {
+  .user {
+    width: 350px;
+    overflow: scroll;
+  }
+}
